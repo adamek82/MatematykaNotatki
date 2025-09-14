@@ -1,0 +1,12 @@
+# Użyj domyślnego silnika Markdown (kramdown) i włącz MathJax
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  hard_wrap: false
+# Prosty motyw (opcjonalnie)
+theme: minima
+# Linki bez rozszerzeń .html
+permalink: pretty
+# Zalecane, by GitHub Pages użył dozwolonej konfiguracji
+plugins: []
