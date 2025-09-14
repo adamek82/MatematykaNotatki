@@ -55,6 +55,7 @@ Zbiory wspólnych dzielników są zatem identyczne, więc ich największy elemen
 $$
 \gcd(662,414)
 $$
+
 Stosujemy tożsamość:
 
 $$
