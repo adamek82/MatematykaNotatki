@@ -28,7 +28,7 @@ Wówczas $x a + y b = x(du)+y(dv)=d(xu+yv)$, czyli $d$ dzieli $x a + y b$. $\squ
 Niech $a,b\in\mathbb Z$ i $b\ne 0$. Niech $q,r$ spełniają dzielenie z resztą
 
 $$
-a = q b + r,\quad 0\le r < |b|,\quad r = a\bmod b.
+a = q b + r,\quad 0\le r < \lvert b\rvert,\quad r = a\bmod b.
 $$
 
 Wtedy
@@ -46,8 +46,8 @@ Zbiory wspólnych dzielników są zatem identyczne, więc ich największy elemen
 
 ### Uwaga o brzegach i znakach
 
-- Przypadek $b=0$: wyrażenie $a\bmod 0$ nie jest zdefiniowane. Standardowo przyjmujemy $\gcd(a,0)=|a|$ — to kończy algorytm.
-- Znak liczb: $\gcd$ zawsze zwracamy jako liczbę nieujemną. Resztę definiujemy tak, by $0\le r<|b|$; dzięki temu twierdzenie działa także dla liczb ujemnych.
+- Przypadek $b=0$: wyrażenie $a\bmod 0$ nie jest zdefiniowane. Standardowo przyjmujemy $\gcd(a,0)=\lvert a\rvert$ — to kończy algorytm.
+- Znak liczb: $\gcd$ zawsze zwracamy jako liczbę nieujemną. Resztę definiujemy tak, by $0\le r<\lvert b\rvert$; dzięki temu twierdzenie działa także dla liczb ujemnych.
 - Nie trzeba zakładać $a\ge b$. Gdy $a<b$, mamy $a\bmod b=a$, więc $\gcd(a,b)=\gcd(b,a)$.
 
 ## Przykład
