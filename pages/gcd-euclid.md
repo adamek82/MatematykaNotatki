@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Algorytm Euklidesa: tożsamość resztowa
+title: "Algorytm Euklidesa: tożsamość resztowa"
 permalink: /pages/gcd-euclid/
 ---
 
