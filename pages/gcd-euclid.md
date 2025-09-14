@@ -7,7 +7,7 @@ permalink: /pages/gcd-euclid/
 # Algorytm Euklidesa: tożsamość resztowa
 
 $$
-\gcd(a,b) = \gcd\big(b,\,a \bmod b\big)
+\gcd(a,b) = \gcd\big(b, a \bmod b\big)
 $$
 
 Poniżej porządne sformułowanie twierdzenia, lemat użyty w dowodzie oraz przykład liczbowy krok‑po‑kroku.
@@ -34,7 +34,7 @@ $$
 Wtedy
 
 $$
-\gcd(a,b) = \gcd(b,r) = \gcd\big(b,\,a\bmod b\big).
+\gcd(a,b) = \gcd(b,r) = \gcd\big(b, a\bmod b\big).
 $$
 
 **Dowód.**
@@ -50,14 +50,23 @@ Zbiory wspólnych dzielników są zatem identyczne, więc ich największy elemen
 - Znak liczb: $\gcd$ zawsze zwracamy jako liczbę nieujemną. Resztę definiujemy tak, by $0\le r<|b|$; dzięki temu twierdzenie działa także dla liczb ujemnych.
 - Nie trzeba zakładać $a\ge b$. Gdy $a<b$, mamy $a\bmod b=a$, więc $\gcd(a,b)=\gcd(b,a)$.
 
-## Przykład: $\gcd(662,\,414)$
+## Przykład
 
-Obliczamy kolejnymi krokami (zawsze stosując $\gcd(a,b)=\gcd(b,a\bmod b)$):
+$$
+\gcd(662,414)
+$$
+Stosujemy tożsamość:
 
-1. $\gcd(662,414)=\gcd\big(414,\,662\bmod 414\big)=\gcd(414,248)$, bo $662=1\cdot 414+248$.
-2. $\gcd(414,248)=\gcd\big(248,\,414\bmod 248\big)=\gcd(248,166)$, bo $414=1\cdot 248+166$.
-3. $\gcd(248,166)=\gcd\big(166,\,248\bmod 166\big)=\gcd(166,82)$, bo $248=1\cdot 166+82$.
-4. $\gcd(166,82)=\gcd\big(82,\,166\bmod 82\big)=\gcd(82,2)$, bo $166=2\cdot 82+2$.
-5. $\gcd(82,2)=\gcd\big(2,\,82\bmod 2\big)=\gcd(2,0)$.
+$$
+\gcd(a,b)=\gcd(b,a\bmod b)
+$$
+
+Obliczamy kolejnymi krokami:
+
+1. $\gcd(662,414)=\gcd\big(414, 662\bmod 414\big)=\gcd(414,248)$, bo $662=1\cdot 414+248$.
+2. $\gcd(414,248)=\gcd\big(248, 414\bmod 248\big)=\gcd(248,166)$, bo $414=1\cdot 248+166$.
+3. $\gcd(248,166)=\gcd\big(166, 248\bmod 166\big)=\gcd(166,82)$, bo $248=1\cdot 166+82$.
+4. $\gcd(166,82)=\gcd\big(82, 166\bmod 82\big)=\gcd(82,2)$, bo $166=2\cdot 82+2$.
+5. $\gcd(82,2)=\gcd\big(2, 82\bmod 2\big)=\gcd(2,0)$.
 
 Z definicji $\gcd(2,0)=2$, więc **$\gcd(662,414)=2$**.
