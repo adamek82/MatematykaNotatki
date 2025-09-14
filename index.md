@@ -19,4 +19,4 @@ $$
 \left( \sum_{i=1}^n a_i b_i \right)^2\le \left(\sum_{i=1}^n a_i^2\right)\left(\sum_{i=1}^n b_i^2\right).
 $$
 
-Zobacz też: [Twierdzenie Pitagorasa](./pages/pitagoras/).
+Zobacz też: [Twierdzenie Pitagorasa](./pages/pitagoras/) • [Algorytm Euklidesa: tożsamość resztowa](./pages/gcd-euclid/).
