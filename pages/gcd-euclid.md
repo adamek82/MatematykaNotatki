@@ -10,22 +10,34 @@ Poniżej porządne sformułowanie twierdzenia, lemat użyty w dowodzie oraz przy
 
 ## Lemat (o kombinacjach liniowych)
 Jeśli $d\mid a$ i $d\mid b$, to dla każdych $x,y\in\mathbb Z$ zachodzi
+
 $$
+
 d\mid (x a + y b).
+
 $$
+
 
 **Dowód.** Z $d\mid a$ mamy $a=du$ dla pewnego $u\in\mathbb Z$, a z $d\mid b$ mamy $b=dv$.
 Wówczas $x a + y b = x(du)+y(dv)=d(xu+yv)$, czyli $d$ dzieli $x a + y b$. $\square$
 
 ## Twierdzenie (krok algorytmu Euklidesa)
 Niech $a,b\in\mathbb Z$ i $b\ne 0$. Niech $q,r$ będą liczbami całkowitymi spełniającymi równość dzielenia z resztą
+
 $$
+
 a = q b + r,\quad 0\le r < |b|\quad (r = a\bmod b).
+
 $$
+
 Wtedy
+
 $$
+
 \gcd(a,b) = \gcd(b,r) = \gcd\big(b,\,a\bmod b\big).
+
 $$
+
 
 **Dowód.**
 
